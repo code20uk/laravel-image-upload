@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ImageUploadController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/laravel-upload-image', [ImageUploadController::class, 'index'])->name('image.upload.view');
+Route::post('/laravel-upload-image', [ImageUploadController::class, 'validate_upload_image'])->name('image.upload.validation');
