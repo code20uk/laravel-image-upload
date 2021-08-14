@@ -4,7 +4,8 @@
 
 
 
-## About Laravel
+## About this code snippet
+
 
 In this guide, you will find all information about Laravel image upload process with secure validation and multiple storage options
 
@@ -12,4 +13,4 @@ In this guide, you will find all information about Laravel image upload process 
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
